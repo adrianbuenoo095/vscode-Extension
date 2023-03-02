@@ -55,7 +55,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.ViewColumn.One,
         {}
       );
-	  
+
       let itereation = 0;
       const updateWebView = () => {
         const cat = itereation++ % 2 ? "compilingCat" : "codingCat";

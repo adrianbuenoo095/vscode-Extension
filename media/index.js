@@ -1,2 +1,2 @@
-const process = require('process');
+const process = require("process");
 console.log(process.traceDeprecation);

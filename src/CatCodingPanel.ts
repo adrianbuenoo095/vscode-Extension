@@ -1,11 +1,11 @@
-import * as vscode from 'vscode';
+import * as vscode from "vscode";
 
 const cats = {
-  'codingCat': 'https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif',
-  'compilingCat': 'https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif'
+  codingCat: "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
+  compilingCat: "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif",
 };
 
-export function getWebviewContent(cat: keyof typeof cats){
+export function getWebviewContent(cat: keyof typeof cats) {
   return `<!DOCTYPE html>
       <html lang="en">
       <head>
@@ -17,4 +17,4 @@ export function getWebviewContent(cat: keyof typeof cats){
         <img src ="${cats[cat]}">
       </body>
       </html>`;
-  }
+}

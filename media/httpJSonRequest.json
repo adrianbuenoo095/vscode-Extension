@@ -1,255 +1,217 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
-    "type": "object",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "default": {},
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "properties": {
     "properties": {
-        "properties": {
-            "$id": "#/properties/properties",
-            "type": "object",
-            "title": "The properties schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": {},
-            "examples": [
-                {
-                    "topic": "Topic",
-                    "firstname": "Jim",
-                    "lastname": "Panse",
-                    "businessphone": "923875",
-                    "emailaddress": "test@asldjkflasdjfs.de",
-                    "company": "asdfjla",
-                    "street1": "sfsdf",
-                    "street2": "asdfasf",
-                    "street3": "asdasdf",
-                    "city": "MS",
-                    "street": "street",
-                    "state": "state",
-                    "zipcode": "zip",
-                    "country": "de",
-                    "description": "Desc",
-                    "webshopid": "5",
-                    "ustid": "asdfasdf-asdf",
-                    "isservice": "true",
-                    "tenant": "810"
-                }
-            ],
-            "required": [
-                "topic",
-                "firstname",
-                "lastname",
-                "businessphone",
-                "emailaddress",
-                "company",
-                "street1",
-                "street2",
-                "street3",
-                "city",
-                "street",
-                "state",
-                "zipcode",
-                "country",
-                "description",
-                "webshopid",
-                "ustid",
-                "isservice",
-                "tenant"
-            ],
-            "properties": {
-                "topic": {
-                    "$id": "#/properties/properties/properties/topic",
-                    "type": "string",
-                    "title": "The topic schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "Topic"
-                    ]
-                },
-                "firstname": {
-                    "$id": "#/properties/properties/properties/firstname",
-                    "type": "string",
-                    "title": "The firstname schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "Jim"
-                    ]
-                },
-                "lastname": {
-                    "$id": "#/properties/properties/properties/lastname",
-                    "type": "string",
-                    "title": "The lastname schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "Panse"
-                    ]
-                },
-                "businessphone": {
-                    "$id": "#/properties/properties/properties/businessphone",
-                    "type": "string",
-                    "title": "The businessphone schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "923875"
-                    ]
-                },
-                "emailaddress": {
-                    "$id": "#/properties/properties/properties/emailaddress",
-                    "type": "string",
-                    "title": "The emailaddress schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "test@asldjkflasdjfs.de"
-                    ]
-                },
-                "company": {
-                    "$id": "#/properties/properties/properties/company",
-                    "type": "string",
-                    "title": "The company schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "asdfjla"
-                    ]
-                },
-                "street1": {
-                    "$id": "#/properties/properties/properties/street1",
-                    "type": "string",
-                    "title": "The street1 schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "sfsdf"
-                    ]
-                },
-                "street2": {
-                    "$id": "#/properties/properties/properties/street2",
-                    "type": "string",
-                    "title": "The street2 schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "asdfasf"
-                    ]
-                },
-                "street3": {
-                    "$id": "#/properties/properties/properties/street3",
-                    "type": "string",
-                    "title": "The street3 schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "asdasdf"
-                    ]
-                },
-                "city": {
-                    "$id": "#/properties/properties/properties/city",
-                    "type": "string",
-                    "title": "The city schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "MS"
-                    ]
-                },
-                "street": {
-                    "$id": "#/properties/properties/properties/street",
-                    "type": "string",
-                    "title": "The street schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "street"
-                    ]
-                },
-                "state": {
-                    "$id": "#/properties/properties/properties/state",
-                    "type": "string",
-                    "title": "The state schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "state"
-                    ]
-                },
-                "zipcode": {
-                    "$id": "#/properties/properties/properties/zipcode",
-                    "type": "string",
-                    "title": "The zipcode schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "zip"
-                    ]
-                },
-                "country": {
-                    "$id": "#/properties/properties/properties/country",
-                    "type": "string",
-                    "title": "The country schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "de"
-                    ]
-                },
-                "description": {
-                    "$id": "#/properties/properties/properties/description",
-                    "type": "string",
-                    "title": "The description schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "Desc"
-                    ]
-                },
-                "webshopid": {
-                    "$id": "#/properties/properties/properties/webshopid",
-                    "type": "string",
-                    "title": "The webshopid schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "5"
-                    ]
-                },
-                "ustid": {
-                    "$id": "#/properties/properties/properties/ustid",
-                    "type": "string",
-                    "title": "The ustid schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "asdfasdf-asdf"
-                    ]
-                },
-                "isservice": {
-                    "$id": "#/properties/properties/properties/isservice",
-                    "type": "string",
-                    "title": "The isservice schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "true"
-                    ]
-                },
-                "tenant": {
-                    "$id": "#/properties/properties/properties/tenant",
-                    "type": "string",
-                    "title": "The tenant schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                        "810"
-                    ]
-                }
-            },
-            "additionalProperties": true
+      "$id": "#/properties/properties",
+      "type": "object",
+      "title": "The properties schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "topic": "Topic",
+          "firstname": "Jim",
+          "lastname": "Panse",
+          "businessphone": "923875",
+          "emailaddress": "test@asldjkflasdjfs.de",
+          "company": "asdfjla",
+          "street1": "sfsdf",
+          "street2": "asdfasf",
+          "street3": "asdasdf",
+          "city": "MS",
+          "street": "street",
+          "state": "state",
+          "zipcode": "zip",
+          "country": "de",
+          "description": "Desc",
+          "webshopid": "5",
+          "ustid": "asdfasdf-asdf",
+          "isservice": "true",
+          "tenant": "810"
         }
-    },
-    "additionalProperties": true
+      ],
+      "required": [
+        "topic",
+        "firstname",
+        "lastname",
+        "businessphone",
+        "emailaddress",
+        "company",
+        "street1",
+        "street2",
+        "street3",
+        "city",
+        "street",
+        "state",
+        "zipcode",
+        "country",
+        "description",
+        "webshopid",
+        "ustid",
+        "isservice",
+        "tenant"
+      ],
+      "properties": {
+        "topic": {
+          "$id": "#/properties/properties/properties/topic",
+          "type": "string",
+          "title": "The topic schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["Topic"]
+        },
+        "firstname": {
+          "$id": "#/properties/properties/properties/firstname",
+          "type": "string",
+          "title": "The firstname schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["Jim"]
+        },
+        "lastname": {
+          "$id": "#/properties/properties/properties/lastname",
+          "type": "string",
+          "title": "The lastname schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["Panse"]
+        },
+        "businessphone": {
+          "$id": "#/properties/properties/properties/businessphone",
+          "type": "string",
+          "title": "The businessphone schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["923875"]
+        },
+        "emailaddress": {
+          "$id": "#/properties/properties/properties/emailaddress",
+          "type": "string",
+          "title": "The emailaddress schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["test@asldjkflasdjfs.de"]
+        },
+        "company": {
+          "$id": "#/properties/properties/properties/company",
+          "type": "string",
+          "title": "The company schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["asdfjla"]
+        },
+        "street1": {
+          "$id": "#/properties/properties/properties/street1",
+          "type": "string",
+          "title": "The street1 schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["sfsdf"]
+        },
+        "street2": {
+          "$id": "#/properties/properties/properties/street2",
+          "type": "string",
+          "title": "The street2 schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["asdfasf"]
+        },
+        "street3": {
+          "$id": "#/properties/properties/properties/street3",
+          "type": "string",
+          "title": "The street3 schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["asdasdf"]
+        },
+        "city": {
+          "$id": "#/properties/properties/properties/city",
+          "type": "string",
+          "title": "The city schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["MS"]
+        },
+        "street": {
+          "$id": "#/properties/properties/properties/street",
+          "type": "string",
+          "title": "The street schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["street"]
+        },
+        "state": {
+          "$id": "#/properties/properties/properties/state",
+          "type": "string",
+          "title": "The state schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["state"]
+        },
+        "zipcode": {
+          "$id": "#/properties/properties/properties/zipcode",
+          "type": "string",
+          "title": "The zipcode schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["zip"]
+        },
+        "country": {
+          "$id": "#/properties/properties/properties/country",
+          "type": "string",
+          "title": "The country schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["de"]
+        },
+        "description": {
+          "$id": "#/properties/properties/properties/description",
+          "type": "string",
+          "title": "The description schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["Desc"]
+        },
+        "webshopid": {
+          "$id": "#/properties/properties/properties/webshopid",
+          "type": "string",
+          "title": "The webshopid schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["5"]
+        },
+        "ustid": {
+          "$id": "#/properties/properties/properties/ustid",
+          "type": "string",
+          "title": "The ustid schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["asdfasdf-asdf"]
+        },
+        "isservice": {
+          "$id": "#/properties/properties/properties/isservice",
+          "type": "string",
+          "title": "The isservice schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["true"]
+        },
+        "tenant": {
+          "$id": "#/properties/properties/properties/tenant",
+          "type": "string",
+          "title": "The tenant schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["810"]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
 }
