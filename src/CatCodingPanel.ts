@@ -15,6 +15,6 @@ export function getWebviewContent(cat: keyof typeof cats) {
       </head>
       <body>
         <img src ="${cats[cat]}">
-      </body>
+      </body>‰
       </html>`;
 }
