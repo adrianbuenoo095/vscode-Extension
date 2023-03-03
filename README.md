@@ -1,3 +1,3 @@
-# vscode-Extension-
+# vscode Extension
 
 Personal Project
