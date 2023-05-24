@@ -1,5 +1,3 @@
-import * as vscode from "vscode";
-
 const cats = {
   codingCat: "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
   compilingCat: "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif",
