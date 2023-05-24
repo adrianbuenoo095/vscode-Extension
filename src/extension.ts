@@ -62,6 +62,7 @@ export function activate(context: vscode.ExtensionContext) {
         panel.title = cat;
         panel.webview.html = getWebviewContent(cat);
       };
+
       updateWebView();
       setInterval(updateWebView, 1000);
     })
