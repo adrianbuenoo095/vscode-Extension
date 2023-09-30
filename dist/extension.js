@@ -19,9 +19,9 @@ exports.deactivate = exports.activate = void 0;
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = __webpack_require__(1);
+const CatCodingPanel_1 = __webpack_require__(5);
 const HelloWorldPanel_1 = __webpack_require__(2);
 const SidebarProvider_1 = __webpack_require__(4);
-const CatCodingPanel_1 = __webpack_require__(5);
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 function activate(context) {
